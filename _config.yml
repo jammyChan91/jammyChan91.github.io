@@ -103,5 +103,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: git@github.com:jammyChan91/jammyChan91.github.io.git
+  # 下方的gh_token会被.travis.yml中sed命令替换
+  repo: https://access_token@github.com/jammyChan91/jammyChan91.github.io.git
   branch: main
